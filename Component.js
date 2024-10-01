@@ -4,6 +4,6 @@ sap.ui.define([
 	"use strict";
 
 	var Component = UIComponent.extend("my.component.sample.cardContent.Component");
-
+//no comments
 	return Component;
 });
