@@ -1,0 +1,28 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+		  xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml"
+		  width="100%"
+		  displayBlock="true"
+		  controllerName="ns.Formcard1.Main" xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form">
+
+	<!-- <Image id="img" width="100%"></Image> -->
+		<!-- <List
+				class="sapUiSmallMarginBottom"
+				showSeparators="None"
+				items="{
+					path: 'products>/productItems'
+				}">
+				<CustomListItem>
+					<HBox alignItems="Center" justifyContent="SpaceBetween">
+						<VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" >
+							<Title level="H3" text="{products>title}" />
+							<Text text="{products>subtitle}" />
+						</VBox>
+						<ObjectStatus
+							class="sapUiTinyMargin sapUiSmallMarginEnd"
+							text="{products>revenue}"
+							state="{products>statusSchema}" />
+					</HBox>
+				</CustomListItem>
+			</List> -->
+</mvc:View>
