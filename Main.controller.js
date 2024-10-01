@@ -7,5 +7,6 @@ sap.ui.define([
 		onInit: function () {
 			this.getView().byId("img").setSrc(sap.ui.require.toUrl("ns/Formcard/Image.png"));
 		}
+
 	});
 });
