@@ -12,6 +12,8 @@
 				items="{
 					path: 'products>/productItems'
 				}">
+
+	
 				<CustomListItem>
 					<HBox alignItems="Center" justifyContent="SpaceBetween">
 						<VBox class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" >
