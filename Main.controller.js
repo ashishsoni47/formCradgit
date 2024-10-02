@@ -1,12 +1,16 @@
 sap.ui.define([
-	"sap/ui/core/mvc/Controller"
+    "sap/ui/core/mvc/Controller"
 ], function (Controller) {
-	"use strict";
+    "use strict";
 
-	return Controller.extend("ns.Formcard1.Main", {
-		onInit: function () {
-			this.getView().byId("img").setSrc(sap.ui.require.toUrl("ns/Formcard/Image.png"));
-		}
+    return Controller.extend("ns.Formcard1.Main", {
+        onInit: function () {
+            this.getView().byId("img").setSrc(sap.ui.require.toUrl("ns/Formcard/Image.png"));
+        },
 
-	});
+        addNumbers: function (a, b) {
+            return a + b;
+        }
+
+    });
 });
